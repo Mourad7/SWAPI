@@ -23,7 +23,7 @@ A project to display information about Star Wars characters, planets, and starsh
 ## How to Use
 1. Clone the repository.
 2. The root folder of the project is the Laravel backend, run `composer install` to install dependencies.
-3. Create a new file named `.env` in the `backend` directory and copy the contents of the `.env.example` file into it.
+3. Create a new file named `.env` in the root folder directory and copy the contents of the `.env.example` file into it.
 4. Generate a new `APP_KEY` by running `php artisan key:generate`.
 5. Run the Laravel backend API by running `php artisan serve` that can be accessed through `http://localhost:8000`.
 6. Navigate to the `frontend` wich is `swapi-react` directory and run `npm install` to install dependencies.
