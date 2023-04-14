@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+:root {
+  --secondary-color: #1f2229;
+  --text-color: #ffffff;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url('https://rare-gallery.com/uploads/posts/1055622-Star-Wars-planet-space-minimalism-stars-Moon-circle-Star-Wars-The-Force-Awakens-astronomy-X-wing-astronomical-object-crescent.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;  color: var(--text-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 20px;
+  margin-right: 10px;
+  font-size: 1rem;
+  background-color: #2e333c;
+  color: var(--text-color);
+  box-shadow: none;
+}
+
+.search button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search button:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.card span {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .search {
+    margin-bottom: 40px;
+  }
+
+  .card {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+  }
+}
+
