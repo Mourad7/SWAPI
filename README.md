@@ -24,7 +24,7 @@ A project to display information about Star Wars characters, planets, and starsh
 3. Create a new file named `.env` in the `backend` directory and copy the contents of the `.env.example` file into it.
 4. Generate a new `APP_KEY` by running `php artisan key:generate`.
 5. Run `php artisan migrate` to create the necessary tables in the database.
-6. Run the Laravel backend API by running `php artisan serve`.
+6. Run the Laravel backend API by running `php artisan serve` that can be accessed through `http://localhost:8000`.
 7. Navigate to the `frontend` directory and run `npm install` to install dependencies.
 8. Run the frontend by running `npm run dev`.
 9. Open your browser and go to `http://localhost:3000`.
