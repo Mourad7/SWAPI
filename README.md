@@ -1,4 +1,4 @@
-# Star Wars Info
+# SWAPI
 
 A project to display information about Star Wars characters, planets, and starships using the SWAPI API. This project is built using Laravel for the backend API which provides RESTful API endpoints. React for the frontend, using Material-UI for styling in a single-page application (SPA) design.
 
