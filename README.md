@@ -7,6 +7,8 @@ A project to display information about Star Wars characters, planets, and starsh
 - Show details of individual characters, planets, and starships
 - Search functionality to find specific characters through their names
 
+![Alt text](/swapi-react/public/people.png "People search")
+
 ### Features to be added 
 - Pagination (or infinite scroll) for character, planet, and starship lists
 
