@@ -8,7 +8,7 @@ A project to display information about Star Wars characters, planets, and starsh
 - Search functionality to find specific characters through their names
 
 ### Features to be added 
-- Pagination for character, film, and starship lists
+- Pagination (or infinite scroll) for character, planet, and starship lists
 
 ## Technologies Used
 - Laravel
